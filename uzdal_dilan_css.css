@@ -1,0 +1,60 @@
+body {
+    background-image: url("images/site-background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    font-family: Arial, sans-serif;
+    width: 800px;
+    margin: auto;
+}
+
+/* Main title */
+h1 {
+    color: yellow;
+    text-align: center;
+    border: 2px solid yellow;
+    padding: 10px;
+}
+
+/* Section headings */
+h2 {
+    color: cyan;
+    border-bottom: 2px solid cyan;
+    padding-bottom: 5px;
+}
+
+/* Smaller headings */
+h3 {
+    color: orange;
+}
+
+/* Paragraph text */
+p {
+    line-height: 1.5;
+}
+
+/* Images */
+img {
+    width: 200px;
+    border: 2px solid yellow;
+    margin: 5px;
+}
+
+/* Links */
+a {
+    color: cyan;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Simple boxes for sections */
+div {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    margin: 15px 0;
+    border: 1px solid gray;
+}
